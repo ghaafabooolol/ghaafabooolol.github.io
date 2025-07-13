@@ -49,24 +49,3 @@ a {
     transition: color 0.3s ease;
 }
 
-a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-#changeColorBtn {
-    background-color: #9400d3;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: all 0.3s ease;
-}
-
-#changeColorBtn:hover {
-    background-color: #9932cc;
-    transform: translateY(-2px);
-}
