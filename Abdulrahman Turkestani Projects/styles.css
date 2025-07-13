@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5f9ea0; /* cadetblue in hex */
+    text-align: center;
+    padding: 20px;
+    color: #00fa9a; /* mediumspringgreen in hex */
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+    transition: background-color 0.5s ease; /* for potential JS color changes */
+}
+
+h1 {
+    color: #9400d3; /* darkviolet in hex */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #9932cc; /* slightly different purple for hierarchy */
+    margin-top: 30px;
+}
+
+img {
+    width: 300px;
+    max-width: 100%; /* responsive */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+a {
+    color: #ffff00; /* yellow for visibility */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#changeColorBtn {
+    background-color: #9400d3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+#changeColorBtn:hover {
+    background-color: #9932cc;
+    transform: translateY(-2px);
+}
